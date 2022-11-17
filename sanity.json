@@ -1,7 +1,7 @@
 {
   "root": true,
   "project": {
-    "name": "cyan-jackal"
+    "name": "kyleshepherd-cms"
   },
   "api": {
     "projectId": "d3y2fj3e",
@@ -15,9 +15,7 @@
   ],
   "env": {
     "development": {
-      "plugins": [
-        "@sanity/vision"
-      ]
+      "plugins": ["@sanity/vision"]
     }
   },
   "parts": [
@@ -26,8 +24,8 @@
       "path": "./schemas/schema"
     },
     {
-      "implements": "part:@sanity/base/root",
-      "path": "plugins/sanity-plugin-tutorial/CustomDefaultLayout"
+      "name": "part:@sanity/desk-tool/structure",
+      "path": "./sanity-structure.js"
     }
   ]
 }

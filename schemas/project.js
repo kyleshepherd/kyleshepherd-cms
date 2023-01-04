@@ -33,5 +33,10 @@ export default {
       type: "date",
       title: "Project Date",
     },
+    {
+      name: "showServerCount",
+      type: "boolean",
+      title: "Show Server Count",
+    },
   ],
 };
